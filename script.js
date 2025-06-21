@@ -68,3 +68,8 @@ window.addEventListener('scroll', () => {
     navbar.style.boxShadow = 'none';
   }
 });
+// === Бургер-меню для мобильных ===
+document.querySelector('.menu-toggle')?.addEventListener('click', () => {
+  document.querySelector('.mobile-menu').classList.toggle('active');
+});
+

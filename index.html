@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <!-- SEO -->
   <title>ПТ | Фрилансер по сайтам, ботам и дизайну</title>
@@ -44,9 +46,10 @@
 
 <header class="navbar">
   <div class="logo">ПТ</div>
-  <nav>
+  <button class="menu-toggle" aria-label="Открыть меню">&#9776;</button>
+  <nav class="mobile-menu">
     <ul>
-      <li><a href="#home" class="scroll-link">Главная</a></li> 
+      <li><a href="#home" class="scroll-link">Главная</a></li>
       <li><a href="#services" class="scroll-link">Услуги</a></li>
       <li><a href="#portfolio" class="scroll-link">Портфолио</a></li>
       <li><a href="#contacts" class="scroll-link">Контакты</a></li>
@@ -120,17 +123,13 @@
 
 <section id="contacts" class="contacts">
   <h2>Свяжитесь со мной</h2>
-  <form id="contactForm">
-    <input type="text" placeholder="Ваше имя" required>
-    <input type="email" placeholder="Email" required>
-    <textarea placeholder="Сообщение..." required></textarea>
-    <button type="submit" class="btn-submit">Отправить</button>
-    <ul>
-      <li>или</li>
-    </ul>
-  </form>
+  <div class="contact-button-wrapper">
+  <a href="https://t.me/shg1e"  target="_blank" class="btn-primary telegram-btn">
+    💬 Написать в Telegram
+  </a>
+</div>
   <div class="socials">
-    <a href="https://t.me/shg1e"><img src="telegram.png" alt="Telegram"></a>
+    <a href="https://wa.me/79128735400"><img src="whatsapp.png" alt="Telegram"></a>
     <a href="https://m.vk.com/id714818358"><img src="vk.png" alt="GitHub"></a>
     <a href="https://www.youtube.com/@KOZINOS"><img src="youtube.png" alt="Instagram"></a>
   </div>
