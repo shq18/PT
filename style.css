@@ -488,3 +488,25 @@ ul li{
   background: #ff00cc;
   transform: scale(1.05);
 }
+.contact-button-wrapper {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.telegram-btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+  background: linear-gradient(45deg, #00ffe7, #ff00cc);
+  color: #000;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 255, 231, 0.5);
+}
+
+.telegram-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #00ffe7;
+}
